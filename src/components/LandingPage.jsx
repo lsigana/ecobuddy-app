@@ -50,5 +50,7 @@ const LandingPage = ({ onNavigate }) => {
     </div>
   );
 };
+<button onClick={() => onNavigate('dashboard')}>Go to Dashboard</button>
+
 
 export default LandingPage;
